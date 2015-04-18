@@ -56,3 +56,5 @@ PRODUCT_PACKAGES += \
     MmsService
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/yaosp.mk)
