@@ -585,9 +585,9 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   system_progress = 0.75
 
   script.Print(" ")
-  script.Print("----------------------------------")
-  script.Print("YAOSP-M - Yank555.lu's AOSP MM ROM")
-  script.Print("----------------------------------")
+  script.Print("-----------------------------------")
+  script.Print("YAOSP-MM - Yank555.lu's AOSP MM ROM")
+  script.Print("-----------------------------------")
   script.Print(" ")
 
   if OPTIONS.wipe_user_data:
