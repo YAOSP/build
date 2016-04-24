@@ -19,3 +19,11 @@
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
+
+PRODUCT_PACKAGES += \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    mkfs.ntfs \
+    fsck.ntfs \
+    mount.ntfs
