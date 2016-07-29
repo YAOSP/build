@@ -27,3 +27,6 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     fsck.ntfs \
     mount.ntfs
+
+## Don't compile SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
