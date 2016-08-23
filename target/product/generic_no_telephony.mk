@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     Superuser \
     su
 
+# Include OMS (Substratum)
+PRODUCT_PACKAGES += \
+    masquerade
+
 PRODUCT_PACKAGES += \
     clatd \
     clatd.conf \
