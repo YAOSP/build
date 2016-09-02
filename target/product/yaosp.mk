@@ -30,3 +30,9 @@ PRODUCT_PACKAGES += \
 
 ## Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
+
+# Add bash shell
+PRODUCT_COPY_FILES += \
+    build/yaosp/b:system/bin/b \
+    build/yaosp/bash:system/bin/bash \
+    build/yaosp/bashrc:system/etc/bash/bashrc
